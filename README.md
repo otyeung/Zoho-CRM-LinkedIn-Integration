@@ -106,4 +106,37 @@ The Conversion is now created and status is "Unverified", you will need to verif
 
 ![Create Conversions API connector](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/3-Create%20LinkedIn%20Conversion%20API%20connector.jpg?raw=true)
 
-### Configure Conversions API connector
+### Configure Conversions API connector Source and Destination
+
+Select which object you want to sync the CAPI event from, also select the CAPI conversion name you have created in Campaign Manager previously.
+
+![Configure Source and Destination]()
+
+### Configure Conversions API field mapping
+
+Map mandatory field :
+
+| Fields in LinkedIn Conversion API | Fields in Zoho CRM |
+| --------------------------------- | ------------------ |
+| Event Time                        | Created Time       |
+| Email                             | Email              |
+| First Name                        | First name         |
+| Last Name                         | Last name          |
+
+It is recommended to map the following fields to improve the match rate :
+
+| Fields in LinkedIn Conversion API | Fields in Zoho CRM |
+| --------------------------------- | ------------------ |
+| Title                             | Title              |
+| Company Name                      | Company            |
+| Social Lead ID                    | Social Lead ID     |
+
+Optionally you can add additional filter to segment your data, e.g. EventTime within 90 days, market segment
+
+![Field Mapping 1]()
+
+![Field Mapping 2]()
+
+Click "Save and Publish" when you are done.
+
+### Send Test Conversion
