@@ -72,6 +72,10 @@ Verify the test lead is created in Zoho CRM.
 
 ![Test Lead in Zoho CRM](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/9.%20Verify%20Incoming%20Lead.jpg?raw=true)
 
+Finally verify if the test lead is inserted in Zoho CRM.
+
+![Test Lead added to Zoho CRM Lead Module]()
+
 ## Conversion API Integration
 
 ### Create Conversions API connector
