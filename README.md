@@ -66,11 +66,11 @@ Click "Save and Publish" when you are done.
 
 To validate the integration, you need to send a [test lead](https://www.linkedin.com/help/lms/answer/a420737) in LinkedIn Campaign Manager.
 
-![Send Test Lead](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/8.%20Send%20Test%20Lead.jpg?raw=true)
+![Send Test Lead](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/8.%20Generate%20Test%20Lead.jpg?raw=true)
 
 Verify the test lead is created in Zoho CRM.
 
-![Test Lead in Zoho CRM](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/7.%20Field%20Mapping%203.jpg?raw=true)
+![Test Lead in Zoho CRM](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/9.%20Verify%20Incoming%20Lead.jpg?raw=true)
 
 ## Conversion API Integration
 
