@@ -110,7 +110,7 @@ The Conversion is now created and status is "Unverified", you will need to verif
 
 Select which object you want to sync the CAPI event from, also select the CAPI conversion name you have created in Campaign Manager previously.
 
-![Configure Source and Destination]()
+![Configure Source and Destination](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/9-Zoho%20Connect%20Source%20and%20Destination.jpg?raw=true)
 
 ### Configure Conversions API field mapping
 
@@ -133,10 +133,26 @@ It is recommended to map the following fields to improve the match rate :
 
 Optionally you can add additional filter to segment your data, e.g. EventTime within 90 days, market segment
 
-![Field Mapping 1]()
+![Field Mapping 1](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/10-Zoho%20Field%20Mapping%201.jpg?raw=true)
 
-![Field Mapping 2]()
+![Field Mapping 2](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/11-Zoho%20Field%20Mapping%202.jpg?raw=true)
 
 Click "Save and Publish" when you are done.
 
+You should see the CAPI chain ("Lead") created, and ready to send events from Zoho CRM.
+
+![CAPI chain created]()
+
 ### Send Test Conversion
+
+Create new lead in Lead module
+
+![Create a test lead in Zoho CRM]()
+
+Fill in necessary information and click Save.
+
+![Fill in lead information]()
+
+Go to the CAPI chain "Lead", you should see the CAPI event is scheduled and not sent yet.
+
+![CAPI event scheduled]()
