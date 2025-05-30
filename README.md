@@ -141,18 +141,18 @@ Click "Save and Publish" when you are done.
 
 You should see the CAPI chain ("Lead") created, and ready to send events from Zoho CRM.
 
-![CAPI chain created]()
+![CAPI chain created](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/12-Zoho%20CAPI%20chain%20created.jpg?raw=true)
 
 ### Send Test Conversion
 
 Create new lead in Lead module
 
-![Create a test lead in Zoho CRM]()
+![Create a test lead in Zoho CRM](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/13-Zoho%20create%20CAPI%20event.jpg?raw=true)
 
 Fill in necessary information and click Save.
 
-![Fill in lead information]()
+![Fill in lead information](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/14-Zoho%20create%20new%20lead.jpg?raw=true)
 
-Go to the CAPI chain "Lead", you should see the CAPI event is scheduled and not sent yet.
+Go to the CAPI chain "Lead", you should see the CAPI event is scheduled and not sent yet. Note that the CAPI sync is scheduled to run every 15 minutes.
 
-![CAPI event scheduled]()
+![CAPI event scheduled](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/15-Zoho%20CAPI%20event%20scheduled.jpg?raw=true)
