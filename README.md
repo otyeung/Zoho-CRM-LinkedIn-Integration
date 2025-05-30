@@ -24,7 +24,7 @@ Now you have a choice of creating [Lead Sync Integration](https://github.com/oty
 
 #### Configure Source and Destination
 
-Connect your LinkedIn account to Zoho CRM and Select your LinkedIn Form, note that you can only select one form per connector (lead chain) If you need to sync multiple forms, you need to create multiple connectors.
+Connect your LinkedIn account to Zoho CRM and Select your LinkedIn Form, note that you can only select one lead gen form per connector (lead chain) If you need to sync multiple forms, you need to create multiple connectors (lead chain).
 
 ![Configure Source and Destination](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/4.%20Connect%20Source%20and%20Destination.jpg?raw=true)
 
@@ -32,7 +32,7 @@ Connect your LinkedIn account to Zoho CRM and Select your LinkedIn Form, note th
 
 Set up the field mapping specific to the form specified in the previous step. Verify the LinkedIn form fields to the corresponding Zoho CRM fields.
 
-#### Best Pracrice
+#### Field Mapping Best Pracrice
 
 It's recommended to map the following Person Info fields at a minimum :
 | Zoho Field | LinkedIn Field |
@@ -60,7 +60,17 @@ It's recommended to map the following Metadata fields for better tracking and re
 
 The above fields are the most commonly used fields in Zoho CRM. If you have other fields that you want to sync, you can map them as well.
 
-![Configure Field Mapping](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/5.%20Configure%20Field%20Mapping.jpg?raw=true)
+Click "Save and Publish" when you are done.
+
+#### Send Test Lead
+
+To validate the integration, you need to send a [test lead](https://www.linkedin.com/help/lms/answer/a420737) in LinkedIn Campaign Manager.
+
+![Send Test Lead](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/8.%20Send%20Test%20Lead.jpg?raw=true)
+
+Verify the test lead is created in Zoho CRM.
+
+![Test Lead in Zoho CRM](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/7.%20Field%20Mapping%203.jpg?raw=true)
 
 ## Conversion API Integration
 
