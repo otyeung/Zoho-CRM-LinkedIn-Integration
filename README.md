@@ -52,11 +52,11 @@ It's recommended to map the following Metadata fields for better tracking and re
 | Ad Campaign Name | Campaign Name |
 | Ad | Adset Name |
 
-![Field Mapping 1]()
+![Field Mapping 1](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/5.%20Field%20Mapping%201.jpg?raw=true)
 
-![Field Mapping 2]()
+![Field Mapping 2](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/6.%20Field%20Mapping%202.jpg?raw=true)
 
-![Field Mapping 3]()
+![Field Mapping 3](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/7.%20Field%20Mapping%203.jpg?raw=true)
 
 The above fields are the most commonly used fields in Zoho CRM. If you have other fields that you want to sync, you can map them as well.
 
