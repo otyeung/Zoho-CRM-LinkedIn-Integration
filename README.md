@@ -80,7 +80,29 @@ Finally verify if the test lead is inserted in Zoho CRM.
 
 ## Conversion API Integration
 
-### Create Conversions API connector
+### Create Conversion in LinkedIn Campaign Manager
+
+Create a conversion rule in LinkedIn Campaign Manager. Measurement -> Conversion Tracking -> Create Conversion -> Conversion API
+
+![Create Conversion]()
+
+Define CAPI configuration, by giving a sensible name to the conversion rule (e.g. source, partner name, table name, filter, etc.), category, attribution window length and attribution window.
+
+![Define Conversion Configuration]()
+
+Select "Direct API" as data source, click "Next Step" to continue
+
+![Select Data Source]()
+
+Make sure you have associated appropriate campaign(s) to your conversion (greater than 0!)
+
+![Associate Campaigns]()
+
+The Conversion is now created and status is "Unverified", you will need to verify it by sending a test conversion from Zoho CRM.
+
+![Conversion Created]()
+
+### Create Conversions API connector in Zoho CRM
 
 ![Create Conversions API connector](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/3-Create%20LinkedIn%20Conversion%20API%20connector.jpg?raw=true)
 
