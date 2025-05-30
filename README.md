@@ -153,6 +153,14 @@ Fill in necessary information and click Save.
 
 ![Fill in lead information](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/14-Zoho%20create%20new%20lead.jpg?raw=true)
 
-Go to the CAPI chain "Lead", you should see the CAPI event is scheduled and not sent yet. Note that the CAPI sync is scheduled to run every 15 minutes.
+Go to the CAPI chain "Lead", you should see the CAPI event is scheduled and not sent yet. Note that the CAPI event sync frequency towards LinkedIn is every 3 hours.
 
 ![CAPI event scheduled](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/15-Zoho%20CAPI%20event%20scheduled.jpg?raw=true)
+
+After 3 hours, you should see the events got sync to LinkedIn, you can verify it Lead Chain dashboard and also in LinkedIn Campaign Manager.
+
+![CAPI event sent in Lead Chain dashboard]()
+
+![CAPI event received in LinkedIn Cam]()
+
+**Congratulations! You have successfully set up the LinkedIn CAPI integration with Zoho CRM**
