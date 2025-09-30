@@ -34,7 +34,7 @@ After creating the connector, you need to configure its settings.
 
 Connect your LinkedIn account to Zoho CRM and select your LinkedIn Lead Gen Form.
 
-*Please note: Each connector (lead chain) supports only one LinkedIn Lead Gen Form. If you need to synchronize multiple forms, you must create a separate connector (lead chain) for each form.*
+_Please note: Each connector (lead chain) supports only one LinkedIn Lead Gen Form. If you need to synchronize multiple forms, you must create a separate connector (lead chain) for each form._
 
 ![Configuring the source (LinkedIn) and destination (Zoho CRM) for the Lead Sync connector](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/4.%20Connect%20Source%20and%20Destination.jpg?raw=true)
 
@@ -48,23 +48,23 @@ For optimal data synchronization, we recommend mapping the following fields.
 
 **Person Info Fields:**
 It is advisable to map these core personal information fields:
-| Zoho Field   | LinkedIn Field                                              |
+| Zoho Field | LinkedIn Field |
 |--------------|-------------------------------------------------------------|
-| Last Name    | Last name                                                   |
-| Company      | Company name                                                |
-| First Name   | First name                                                  |
-| Title        | Job Role                                                    |
-| Email        | Business Email (use Email if Business Email is unavailable) |
-| Country      | Country/Region                                              |
+| Last Name | Last name |
+| Company | Company name |
+| First Name | First name |
+| Title | Job Role |
+| Email | Business Email (use Email if Business Email is unavailable) |
+| Country | Country/Region |
 
 **Metadata Fields:**
 Mapping these metadata fields will enhance tracking and reporting capabilities:
-| Zoho Field       | LinkedIn Field          |
+| Zoho Field | LinkedIn Field |
 |------------------|-------------------------|
-| Lead Source      | LinkedIn (static label) |
-| Social Lead ID   | Lead Id                 |
-| Ad Campaign Name | Campaign Name           |
-| Ad               | Adset Name              |
+| Lead Source | LinkedIn (static label) |
+| Social Lead ID | Lead Id |
+| Ad Campaign Name | Campaign Name |
+| Ad | Adset Name |
 
 ![Field Mapping Configuration in Zoho for Lead Sync - Part 1](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Lead%20Sync%20Connector/5.%20Field%20Mapping%201.jpg?raw=true)
 
@@ -104,15 +104,16 @@ Navigate to **Measurement** -> **Conversion Tracking** -> **Create Conversion** 
 ![Creating a CAPI Conversion in LinkedIn Campaign Manager](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/4-LinkedIn%20Create%20CAPI%20Conversion.jpg?raw=true)
 
 Next, define your CAPI configuration. This involves:
-*   Giving a descriptive name to your conversion rule (e.g., including source, partner name, table name, or filter criteria).
-*   Specifying the conversion category.
-*   Setting the attribution window length and type.
+
+- Giving a descriptive name to your conversion rule (e.g., including source, partner name, table name, or filter criteria).
+- Specifying the conversion category.
+- Setting the attribution window length and type.
 
 ![Defining the CAPI Conversion Configuration in LinkedIn](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/5-LinkedIn%20Define%20CAPI%20configuration.jpg?raw=true)
 
-Select **"Direct API"** as the data source and click **"Next Step"** to proceed.
+Select **"Zoho Beta"** as the data source and click **"Next Step"** to proceed.
 
-![Selecting "Direct API" as the Data Source in LinkedIn](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/6-LinkedIn%20Select%20Data%20Source.jpg?raw=true)
+![Selecting "Zoho Beta" as the Data Source in LinkedIn](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/6-LinkedIn%20Select%20Data%20Source.jpg?raw=true)
 
 Ensure that you have associated the appropriate campaign(s) with your conversion rule (the campaign count must be greater than zero).
 
@@ -142,20 +143,20 @@ Map the fields from Zoho CRM to the corresponding fields in the LinkedIn Convers
 These fields are essential for the integration to function correctly:
 | Fields in LinkedIn Conversion API | Fields in Zoho CRM |
 |-----------------------------------|--------------------|
-| Event Time                        | Created Time       |
-| Email                             | Email              |
-| First Name                        | First Name         |
-| Last Name                         | Last Name          |
+| Event Time | Created Time |
+| Email | Email |
+| First Name | First Name |
+| Last Name | Last Name |
 
 **Recommended Fields:**
 Mapping these fields can help improve the match rate and data accuracy:
 | Fields in LinkedIn Conversion API | Fields in Zoho CRM |
 |-----------------------------------|--------------------|
-| Title                             | Title              |
-| Company Name                      | Company            |
-| Social Lead ID                    | Social Lead ID     |
+| Title | Title |
+| Company Name | Company |
+| Social Lead ID | Social Lead ID |
 
-*Optionally, you can add filters to segment the data being sent, for example, based on `EventTime` (e.g., within the last 90 days) or specific market segments.*
+_Optionally, you can add filters to segment the data being sent, for example, based on `EventTime` (e.g., within the last 90 days) or specific market segments._
 
 ![Zoho CAPI Field Mapping Configuration - Part 1](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/10-Zoho%20Field%20Mapping%201.jpg?raw=true)
 
@@ -181,7 +182,7 @@ Fill in the necessary information for the test record and click **"Save"**.
 
 Navigate to the CAPI chain you created (e.g., **"Lead"**) within the LeadChain module in Zoho CRM. You should see the CAPI event scheduled for sending.
 
-*Note: Conversion events are synchronized to LinkedIn approximately every 3 hours.*
+_Note: Conversion events are synchronized to LinkedIn approximately every 3 hours._
 
 ![CAPI Event Scheduled in Zoho LeadChain Dashboard](https://github.com/otyeung/Zoho-CRM-LinkedIn-Integration/blob/main/Conversions%20API%20Connector/15-Zoho%20CAPI%20event%20scheduled.jpg?raw=true)
 
