@@ -1,4 +1,4 @@
-# Zoho CRM LinkedIn Integration
+# [LEAD,CAPI] Zoho CRM LinkedIn Integration
 
 This document guides you through integrating Zoho CRM with LinkedIn. It covers two main methods: Lead Sync and the Conversions API.
 
@@ -19,6 +19,12 @@ Now you have a choice of creating either a [Lead Sync Integration](#lead-sync-in
 ## Lead Sync Integration
 
 This section outlines the steps to synchronize leads from LinkedIn to Zoho CRM.
+
+### Pre-requisite
+
+Please ensure you have both LinkedIn Ads account permission (viewer, creative manager, campaign manager or account manager) and the associated company page permission (Lead Gen Forms manager, super admin, content admin, or analyst) before proceeding.
+
+[Lead Gen Permission on LinkedIn](https://www.linkedin.com/help/lms/answer/a421620)
 
 ### Create Lead Sync Connector
 
